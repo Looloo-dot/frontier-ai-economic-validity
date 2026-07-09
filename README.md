@@ -63,7 +63,7 @@ Every downstream number traces to the pinned raw snapshots via `notebook/ME315_2
 The AA Data API requires a key (HTTP 401); the notebook uses the public-page extraction route and stores
 the exact bytes so results are stable regardless of live-page drift.
 
-## Dataset at a glance
+## Dataset
 - **548** model configurations parsed → **421** retained (≥8 of 13 kept benchmarks).
 - **12 primary benchmarks** across 5 taxonomy blocks (Economic, Academic, Scientific-coding,
   Long-context, Instruction-following); MMMU-Pro held for sensitivity; APEX-Agents dropped (<60 models).
